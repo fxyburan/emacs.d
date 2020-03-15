@@ -7,15 +7,14 @@
                          ("melpa" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/")))
 (package-initialize)
 
+;; cancel tool-bar, scroll-bar, menu-bar, inhibit splash screen
 (tool-bar-mode -1)
 (scroll-bar-mode -1)
 (menu-bar-mode -1)
 (electric-indent-mode -1)
 (setq inhibit-splash-screen t)
 (global-linum-mode t)
-
-;; load theme solarized
-(load-theme 'solarized-light t)
+(setq-default cursor-type 'bar)
 
 ;; TODO recentf mode
 (recentf-mode t)
@@ -38,3 +37,10 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
+
+;; load theme solarized
+(load-theme 'solarized-light t)
+
+;; cancel backup files
+(setq make-backup-files nil)
+
