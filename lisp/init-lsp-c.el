@@ -26,6 +26,14 @@
          (python-mode . lsp-deferred))
   :commands (lsp lsp-deferred))
 
+;; cmake-mode
+(setq load-path (cons (expand-file-name "~/.emacs.d/lisp/cmake-mode.el") load-path))
+(require 'cmake-mode)
+(setq auto-mode-alist
+      (append '(("CMakeLists\\.txt\\'" . cmake-mode)
+		("\\.cmake\\'" . cmake-mode))
+              auto-mode-alist))
+
 ;; optionally
 (use-package lsp-ui :commands lsp-ui-mode)
 ;; if you are helm user

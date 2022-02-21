@@ -1,6 +1,6 @@
-;; -*- emacs-lisp -*- <21/05/28 15:05:33 /home/vontroy/.emacs.d/tramp>
+;; -*- emacs-lisp -*- <21/11/15 00:13:39 /Users/vontroy/.emacs.d/tramp>
 ;; Tramp connection history.  Don't change this file.
-;; You can delete it, forcing Tramp to reapply the checks.
+;; Run `M-x tramp-cleanup-all-connections' instead.
 
 (((tramp-file-name "ssh" "fxy" nil "192.168.2.162" nil nil nil)
   ("uname" "Linux 4.15.0-142-generic")
@@ -22,4 +22,29 @@
   ("bzr" nil)
   ("git" "\\git")
   ("env-u-option" t)
-  ("~" "/home/fxy")))
+  ("~" "/home/fxy"))
+ ((tramp-file-name "ssh" "vontroy" nil "192.168.185.128" nil nil nil)
+  ("uname" "Linux 5.4.0-89-generic")
+  ("locale" "LC_ALL=en_US.utf8")
+  ("test" "test")
+  ("remote-path"
+   ("/bin" "/usr/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
+  ("pipe-buf" 4096)
+  ("remote-shell" "/bin/sh")
+  ("perl-file-spec" t)
+  ("perl-cwd-realpath" t)
+  ("perl" "\\perl")
+  ("file-exists" "test -e")
+  ("case-insensitive" nil)
+  ("readlink" "\\readlink")
+  ("stat" "env QUOTING_STYLE=locale \\stat")
+  ("id" "/bin/id")
+  ("gid-integer" 1000)
+  ("gid-string" "vontroy")
+  ("bzr" nil)
+  ("git" "\\git")
+  ("hg" nil)
+  ("tmpdir" "/ssh:vontroy@192.168.185.128:/tmp")
+  ("touch-t" t)
+  ("touch" "\\touch")
+  ("~" "/home/vontroy")))

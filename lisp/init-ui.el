@@ -5,6 +5,7 @@
 
 ;; show line numbers
 (global-linum-mode t)
+(setq linum-format "%.4d|")
 
 ;; delete-selection-mode
 (delete-selection-mode t)
@@ -38,7 +39,7 @@
 (global-set-key (kbd "<f2>") 'open-init-file)
 
 ;; load theme solarized
-(load-theme 'solarized-dark t)
+(load-theme 'solarized-light t)
 
 ;; (global-set-key (kbd "C-SPC") nil)
 
