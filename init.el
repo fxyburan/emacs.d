@@ -1,6 +1,10 @@
 (add-to-list 'load-path
 	     (expand-file-name (concat user-emacs-directory "lisp")))
 
+(when (eq system-type 'darwin)
+  (setq mac-right-control-modifier 'meta)
+  (setq mac-option-modifier 'none))
+
 (require 'init-elpa)
 
 (require 'init-packages)
