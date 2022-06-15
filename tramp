@@ -1,4 +1,4 @@
-;; -*- emacs-lisp -*- <22/06/11 19:17:43 /Users/vontroy/.emacs.d/tramp>
+;; -*- emacs-lisp -*- <22/06/15 09:12:58 /Users/fxy/.emacs.d/tramp>
 ;; Tramp connection history.  Don't change this file.
 ;; Run `M-x tramp-cleanup-all-connections' instead.
 
@@ -107,4 +107,24 @@
   ("hg" nil)
   ("tmpdir" "/ssh:192.168.1.240:/tmp")
   ("touch-t" t)
-  ("touch" "\\touch")))
+  ("touch" "\\touch"))
+ ((tramp-file-name "ssh" "fxy" nil "192.168.0.250" nil nil nil)
+  ("readlink" "\\readlink")
+  ("uname" "Linux 5.15.0-30-generic")
+  ("locale" "LC_ALL=en_US.utf8")
+  ("test" "test")
+  ("remote-path"
+   ("/bin" "/usr/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
+  ("pipe-buf" 4096)
+  ("remote-shell" "/bin/sh")
+  ("id" "/bin/id")
+  ("gid-integer" 1000)
+  ("file-exists" "test -e")
+  ("stat" "env QUOTING_STYLE=locale \\stat")
+  ("gid-string" "fxy")
+  ("case-insensitive" nil)
+  ("perl-file-spec" t)
+  ("perl-cwd-realpath" t)
+  ("perl" "\\perl"))
+ ((tramp-file-name "ssh" "fxy" nil "192.168.1.250" nil nil nil)
+  nil))

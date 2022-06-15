@@ -7,6 +7,10 @@
 (global-linum-mode t)
 (setq linum-format "%.4d|")
 
+;; fonts
+(set-face-attribute
+ 'default nil :font "Monaco-14")
+
 ;; delete-selection-mode
 (delete-selection-mode t)
 

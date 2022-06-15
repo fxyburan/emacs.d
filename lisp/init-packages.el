@@ -11,6 +11,7 @@
 			     lsp-mode
 			     which-key
 			     dap-mode
+			     google-c-style
 			     ) "Default packages")
 
 (setq package-selected-packages 'dependent-packages)
