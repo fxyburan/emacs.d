@@ -60,6 +60,15 @@
 ;; google-c-style
 (require 'google-c-style)
 (add-hook 'c-mode-common-hook 'google-set-c-style)
+(add-hook 'cc-mode-common
 (add-hook 'c-mode-common-hook 'google-make-newline-indent)
+
+;; reformat code
+(defun indent-whole()
+  (interactive)
+  (indent-region (point-min) (point-max))
+  (message "format successfully"))
+(when (eq system-type 'darwin)
+  (global-set-key (kbd "C-M-l") 'indent-whole))
 
 (provide 'init-lsp-c)

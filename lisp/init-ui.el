@@ -43,7 +43,7 @@
 (global-set-key (kbd "<f2>") 'open-init-file)
 
 ;; load theme solarized
-(load-theme 'solarized-dark t)
+(load-theme 'solarized-light t)
 
 ;; (global-set-key (kbd "C-SPC") nil)
 
