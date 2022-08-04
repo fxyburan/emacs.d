@@ -9,6 +9,7 @@
 			     company
 			     use-package
 			     lsp-mode
+			     rust-mode
 			     which-key
 			     dap-mode
 			     google-c-style
