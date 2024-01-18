@@ -12,6 +12,7 @@
 			     rust-mode
 			     which-key
 			     dap-mode
+			     tree-sitter
 			     google-c-style
 			     ) "Default packages")
 

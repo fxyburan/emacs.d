@@ -20,7 +20,7 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
-   '(bazel cdlatex cmake-ide cmake-mode cmake-project auctex eglot ccls lsp-mode)))
+   '(rust-mode bazel cdlatex cmake-ide cmake-mode cmake-project auctex eglot ccls lsp-mode)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

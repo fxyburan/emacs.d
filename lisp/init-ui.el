@@ -4,8 +4,8 @@
 (menu-bar-mode -1)
 
 ;; show line numbers
-(global-linum-mode t)
-(setq linum-format "%.4d|")
+;;(global-linum-mode t)
+;;(setq linum-format "%.4d|")
 
 ;; fonts
 (set-face-attribute
@@ -43,7 +43,7 @@
 (global-set-key (kbd "<f2>") 'open-init-file)
 
 ;; load theme solarized
-(load-theme 'solarized-light t)
+(load-theme 'solarized-dark t)
 
 ;; (global-set-key (kbd "C-SPC") nil)
 
